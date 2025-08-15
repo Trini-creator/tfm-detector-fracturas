@@ -107,3 +107,4 @@ Original file is located at
 # #                st.success(f"**Predicción del Modelo:** {prediction}")
 # #                # --- CORRECCIÓN DE LA ADVERTENCIA ---
 # #                st.image(gradcam_result_image, caption="Análisis con Grad-CAM", use_container_width=True)
+# st.write("¡La aplicación base funciona!")
