@@ -85,25 +85,25 @@ Original file is located at
 # 
 # # --- Lógica de la Interfaz de Usuario ---
 # 
-# model = load_keras_model()
+# # model = load_keras_model()
 # 
-# if model:
-#     uploaded_file = st.file_uploader(
-#         "Sube una radiografía para analizar", type=["png", "jpg", "jpeg"]
-#     )
-# 
-#     if uploaded_file is not None:
-#         original_image = Image.open(uploaded_file)
-#         # --- CORRECCIÓN DE LA ADVERTENCIA ---
-#         # Cambiamos use_column_width a use_container_width
-#         st.image(original_image, caption="Imagen Subida", use_container_width=True)
-# 
-#         if st.button("Analizar Imagen"):
-#             with st.spinner('Procesando...'):
-#                 preprocessed_image = preprocess_image_from_pil(original_image)
-#                 prediction = classify_image(preprocessed_image, model)
-#                 gradcam_result_image = get_gradcam_image(original_image, preprocessed_image, model)
-# 
-#                 st.success(f"**Predicción del Modelo:** {prediction}")
-#                 # --- CORRECCIÓN DE LA ADVERTENCIA ---
-#                 st.image(gradcam_result_image, caption="Análisis con Grad-CAM", use_container_width=True)
+# # if model:
+# #    uploaded_file = st.file_uploader(
+# #        "Sube una radiografía para analizar", type=["png", "jpg", "jpeg"]
+# #    )
+# #
+# #    if uploaded_file is not None:
+# #        original_image = Image.open(uploaded_file)
+# #        # --- CORRECCIÓN DE LA ADVERTENCIA ---
+# #        # Cambiamos use_column_width a use_container_width
+# #        st.image(original_image, caption="Imagen Subida", use_container_width=True)
+# #
+# #        if st.button("Analizar Imagen"):
+# #            with st.spinner('Procesando...'):
+# #                preprocessed_image = preprocess_image_from_pil(original_image)
+# #                prediction = classify_image(preprocessed_image, model)
+# #                gradcam_result_image = get_gradcam_image(original_image, preprocessed_image, model)
+# #
+# #                st.success(f"**Predicción del Modelo:** {prediction}")
+# #                # --- CORRECCIÓN DE LA ADVERTENCIA ---
+# #                st.image(gradcam_result_image, caption="Análisis con Grad-CAM", use_container_width=True)
