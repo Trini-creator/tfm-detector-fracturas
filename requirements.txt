@@ -1,8 +1,8 @@
 streamlit==1.36.0
 gradio==4.44.0
-tensorflow==2.15.0
-keras==2.15.0
-opencv-python-headless==4.10.0.84
+tensorflow-cpu==2.17.0
+keras==3.4.1
 numpy==1.26.4
 pillow==10.4.0
+opencv-python-headless==4.10.0.84
 
